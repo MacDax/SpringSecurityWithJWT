@@ -1,0 +1,11 @@
+server:
+   port: 8070
+
+security:
+   oauth2:
+      client:
+         client-id: clientuser
+         client-secret: clientsecret
+logging:
+   level:
+      org.springframework.security: DEBUG
